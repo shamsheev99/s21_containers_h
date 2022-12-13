@@ -1,17 +1,10 @@
 # s21_containers
 
-> При старте работы над проектом просим вас постараться хронометрировать время работы над проектом.
-> По завершении работы над проектом просим вас ответить на два вопроса [в этом опросе](https://forms.gle/1mNrKimJ1c7g8XLj6)
-
 Implementation of the s21_containers.h. library.
-
-The russian version of the task can be found in the repository.
-
 
 ## Contents
 
 1. [Chapter I](#chapter-i) \
-   1.1. [Introduction](#introduction)
 2. [Chapter II](#chapter-ii) \
    2.1. [Information](#information)
 3. [Chapter III](#chapter-iii) \
@@ -21,35 +14,6 @@ The russian version of the task can be found in the repository.
 
 
 ## Chapter I
-
-![s21_containers](misc/images/s21_containers.png)
-
-Planet Earth, USA, California, somewhere among the massive containers of the Port of Oakland, 29 October 1993.
-
-*- Do you really think Bjarne will agree to add this to the standard?*
-
-*-- Sure. Especially since he was already interested in templates a couple of years ago, but then they couldn't get enough reliability of the developing library.* - said a middle-aged man wearing a white shirt and an HP Labs nametag that said "A. Stepanov".
-
-*- I saw your presentation on generalized programming. The idea is really impressive, but they wanted to release the new standard by the end of the year. This one will need a lot of adjustments...*
-
-*-- I think that's exactly what they were missing to fully complete the new standard. Especially, as you said, the idea is impressive. However, it needs some adjustments, indeed. To be fully confident in the success of the presentation, we need to provide some examples of how to use the approach and the templates in general. You are familiar with the structure of singly linked lists, right?*
-
-*- Yeah, I think I'm starting to get your idea. You want to implement generalized lists as an example? One template class for all types?*
-
-*-- Not only that. Imagine if any container could be described once and then used with different data types and classes. How much time, effort and resources it would save! Lists, maps, sets!"* - the walk along the Embarcadero promenade was clearly getting more interesting.
-
-*- Queues and stacks... Damn, that's genius.*
-
-*-- Exactly. Who, after such examples, would refuse to add a library to their language standard?*
-
-*- I'm in. We could even put together a small team of guys who are interested. How much time do we have to implement these examples?*
-
-*-- About two weeks before the presentation meeting in San Jose, then..*
-
-### Introduction
-
-As part of the project you need to write your own library that implements the basic standard C++ container classes: `list`, `map`, `queue`, `set`, `stack` and `vector`. Implementations should provide a full set of standard methods and attributes for element handling, container capacity checking and iteration. As a bonus, you can also implement several other container classes from the C++ container library that are not as commonly used, but differ in their implementation details.
-
 
 ## Chapter II
 
